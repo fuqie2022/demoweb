@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>龙翔新能源官网</title>
+
+    <style>
+        *::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        background-color: rgba(0,0,0,0.5);
+        }
+        *::-webkit-scrollbar{
+        width: 3px;
+        height: 3px;
+        }
+        *::-webkit-scrollbar-track-piece{
+        background-color: transparent;
+        }
+        input:-webkit-autofill {
+        transition: background-color 50000s ease-in-out 0s;
+        }
+        html,body{
+        margin: 0;
+        padding: 0;
+        }
+        ul{
+        list-style: none;
+        }
+        *{
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        user-select: none;
+        }
+        a{
+        text-decoration: none;
+        }
+        label{
+        cursor: default;
+        margin: 0;
+        }
+        i{
+            display: grid;
+            align-items: center;
+        }
+        img{
+            width: 100%;
+        }
+        /* 主体 */
+        .index{
+            
+        }
+        .container{
+            position: relative;
+            width: 70%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* header */
+        .index-header{
+            border-bottom: 2px solid rgb(207, 207, 207);
+        }
+        .index-header-frame{
+            display: flex;
+            align-items: center;
+            padding: 20px 0px;
+        }
+        .index-header-title{
+            padding-left: 20px;
+            font-size: 1.5rem;
+        }
+        .index-header-download{
+            margin-left: 20px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: 2px solid rgb(255, 172, 39);
+            font-weight: bold;
+            color: rgb(255, 172, 39);
+            cursor: pointer;
+        }
+        .index-header-download:hover{
+            background-color: rgb(0, 128, 255);
+            border: 2px solid rgb(0, 128, 255);
+            color: #fff;
+        }
+
+        /* body */
+        .index-body-imgs{
+            display: grid;
+            justify-items: center;
+            row-gap: 20px;
+        }
+        .index-body-img{
+            padding-top: 10px;
+            border-top: 2px dashed rgb(207, 207, 207);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        /* footer */
+        .index-footer{
+            background-color: rgb(51, 51, 51);
+        }
+        .index-footer-frame{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .index-footer-frame>*{
+            color: rgb(210, 210, 210);
+            font-size: 0.5rem;
+            margin-left: 20px;
+        }
+        .index-footer-frame>*:hover{
+            border-bottom: 1px solid rgb(210, 210, 210);
+        }
+    </style>
+</head>
+<body>
+    <div class="index">  
+        <div class="index-header">
+            <div class="container">
+                <div class="index-header-frame">
+                    <div class="index-header-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M21 20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.49a1 1 0 0 1 .386-.79l8-6.222a1 1 0 0 1 1.228 0l8 6.222a1 1 0 0 1 .386.79V20zm-2-1V9.978l-7-5.444-7 5.444V19h14z"/></svg>
+                    </div>
+                    <div class="index-header-title">
+                        龙翔智能充电站
+                    </div>
+                    <a href="./app-debug.apk" download="recharge_pile.apk" class="index-header-download">
+                        下载app
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="index-body">
+            <div class="container">
+                <div class="index-body-frame">
+                    <h1 class="index-body-details">
+                        一个充电桩全平台移动应用解决方案
+                    </h1>
+                    <h3 class="index-body-text">
+                        由于环保的需要而带动的新能源汽车的快速发展，如何给予新能源汽车快速、稳定的充电方式便成为了一个新的问题和市场，而充电桩成为了当下唯一可行的解决方式，为了满足充电桩与用户的交互需求则需要移动应用程序来解决这个问题。
+                    </h3>
+                    <div class="index-body-imgs">
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">主页</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold).png" alt="">
+                        </div>
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">登录</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold) (1).png" alt="">
+                        </div>
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">列表详情</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold) (2).png" alt="">
+                        </div>
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">详情</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold) (3).png" alt="">
+                        </div>
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">支付选择</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold) (6).png" alt="">
+                        </div>
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">添加车牌</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold) (4).png" alt="">
+                        </div>
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">输入车牌号</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold) (5).png" alt="">
+                        </div>
+                        <div class="index-body-img">
+                            <div class="index-body-img-text">充电中</div>
+                            <img src="./imgs/localhost_8080_(Galaxy Fold) (7).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-footer">
+            <div class="container">
+                <div class="index-footer-frame">
+                    <div class="index-footer-accord">联系客服</div>
+                    <div class="index-footer-accord">查看《用户协议》</div>
+                    <div class="index-footer-email">联系邮箱:fuqie2022@outlook.com</div>
+                    <div class="index-footer-name">2022&copy;上海富锲智能科技有限公司</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
